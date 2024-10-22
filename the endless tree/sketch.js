@@ -14,6 +14,7 @@ let leafSize = [10, 10, 10, 10, 10];
 let leafsize = [5, 5, 5, 5, 5];
 let planetTp = [225, 225, 225, 225, 225];
 let leafGrow = [true,true,true,true,true]
+let leafCenterX=[0,0,0,0,0]
 
 function setup() {
     let cnv=createCanvas(800,500)
