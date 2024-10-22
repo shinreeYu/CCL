@@ -1,0 +1,20 @@
+body{
+    background-color:mistyrose;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: wavy;
+    h1{
+        color: deeppink;
+        background-color: aqua;
+    }
+    p{
+        text-decoration: underline;
+        font-weight: bold;
+        color: darkslateblue;
+    }
+    h3{
+        color: crimson;
+        background-color: azure;
+    }
+    
+
+}
