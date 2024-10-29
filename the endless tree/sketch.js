@@ -136,22 +136,22 @@ function draw() {
         fill(255,255,100,transprc[1])
           if(leafGrow[i]==false){
             transprc[0]=0
-       text('Great! What about trying the keys?',-150,-100)
+       text('Great! What about trying the letters of key?',-150,-100)
   
   
-            if(key=='ArrowUp' && keyIsPressed == true){
+            if(key=='w' && keyIsPressed == true){
               leafControlUp[i]+=1
           }
-          if(keyIsPressed == true && key=='ArrowDown'){
+          if(keyIsPressed == true && key=='s'){
             leafControlDown[i]-=1
           }
-          if(keyIsPressed == true && key=='ArrowRight'){
+          if(keyIsPressed == true && key=='d'){
             leafControlRight[i]+=1
           }
-          if(keyIsPressed == true && key=='ArrowLeft'){
+          if(keyIsPressed == true && key=='a'){
             leafControlLeft[i]-=1
           }}
-            if(leafControlUp[i]>=10||leafControlDown[i]<=-10||leafControlRight[i]>=10||leafControlLeft[i]<=-10){planetTp[mouseNum[i]-1]-=10
+            if(leafControlUp[i]>=10||leafControlDown[i]<=-10||leafControlRight[i]>=10||leafControlLeft[i]<=-10||leafSize[i]>=100){planetTp[mouseNum[i]-1]-=10
                 planetDia[mouseNum[i]-1]+=5
                                                                                                                transprc[1]=transprc[1]-200/loopNum}}
             noStroke();
